@@ -3,34 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B4338A21F5800642AAF725B /* Pods_CoreDataVsRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006F6679973AA3246096A741 /* Pods_CoreDataVsRealm.framework */; };
 		AC4D60AF2692FD57008D9AC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D60AE2692FD57008D9AC1 /* AppDelegate.m */; };
-		AC4D60B22692FD57008D9AC1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D60B12692FD57008D9AC1 /* SceneDelegate.m */; };
-		AC4D60B52692FD57008D9AC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D60B42692FD57008D9AC1 /* ViewController.m */; };
-		AC4D60B82692FD57008D9AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4D60B62692FD57008D9AC1 /* Main.storyboard */; };
 		AC4D60BB2692FD57008D9AC1 /* CoreDataVsRealm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC4D60B92692FD57008D9AC1 /* CoreDataVsRealm.xcdatamodeld */; };
 		AC4D60BD2692FD59008D9AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4D60BC2692FD59008D9AC1 /* Assets.xcassets */; };
 		AC4D60C02692FD59008D9AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4D60BE2692FD59008D9AC1 /* LaunchScreen.storyboard */; };
 		AC4D60C32692FD59008D9AC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D60C22692FD59008D9AC1 /* main.m */; };
+		AC4D60D026930108008D9AC1 /* RATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D60CE26930108008D9AC1 /* RATViewController.m */; };
+		AC4D60D126930108008D9AC1 /* RATViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC4D60CF26930108008D9AC1 /* RATViewController.xib */; };
+		AC4D610326931586008D9AC1 /* RATSimpleRLMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D610226931586008D9AC1 /* RATSimpleRLMObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		006F6679973AA3246096A741 /* Pods_CoreDataVsRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataVsRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1FC2D226931B0500E11A8F /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1FC2E82693330600E11A8F /* SimpleEntity+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleEntity+CoreDataProperties.h"; sourceTree = SOURCE_ROOT; };
+		AC1FC2E92693330600E11A8F /* SimpleEntity+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleEntity+CoreDataClass.h"; sourceTree = SOURCE_ROOT; };
+		AC1FC2EA2693330600E11A8F /* SimpleEntity+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SimpleEntity+CoreDataClass.m"; sourceTree = SOURCE_ROOT; };
+		AC1FC2EB2693330600E11A8F /* SimpleEntity+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SimpleEntity+CoreDataProperties.m"; sourceTree = SOURCE_ROOT; };
 		AC4D60AA2692FD57008D9AC1 /* CoreDataVsRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataVsRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC4D60AD2692FD57008D9AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC4D60AD2692FD57008D9AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; usesTabs = 0; };
 		AC4D60AE2692FD57008D9AC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC4D60B02692FD57008D9AC1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		AC4D60B12692FD57008D9AC1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		AC4D60B32692FD57008D9AC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC4D60B42692FD57008D9AC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AC4D60B72692FD57008D9AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC4D60BA2692FD57008D9AC1 /* CoreDataVsRealm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataVsRealm.xcdatamodel; sourceTree = "<group>"; };
 		AC4D60BC2692FD59008D9AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC4D60BF2692FD59008D9AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC4D60C12692FD59008D9AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC4D60C22692FD59008D9AC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC4D60CD26930108008D9AC1 /* RATViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RATViewController.h; sourceTree = "<group>"; };
+		AC4D60CE26930108008D9AC1 /* RATViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RATViewController.m; sourceTree = "<group>"; };
+		AC4D60CF26930108008D9AC1 /* RATViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RATViewController.xib; sourceTree = "<group>"; };
+		AC4D610126931586008D9AC1 /* RATSimpleRLMObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RATSimpleRLMObject.h; sourceTree = "<group>"; };
+		AC4D610226931586008D9AC1 /* RATSimpleRLMObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RATSimpleRLMObject.m; sourceTree = "<group>"; };
+		BB7E20BB6AED1FEAB6BEED5D /* Pods-CoreDataVsRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataVsRealm.release.xcconfig"; path = "Target Support Files/Pods-CoreDataVsRealm/Pods-CoreDataVsRealm.release.xcconfig"; sourceTree = "<group>"; };
+		EBE0B7FAF7EF5313085203E8 /* Pods-CoreDataVsRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataVsRealm.debug.xcconfig"; path = "Target Support Files/Pods-CoreDataVsRealm/Pods-CoreDataVsRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4338A21F5800642AAF725B /* Pods_CoreDataVsRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174A0110ADACB0F8F9897E6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBE0B7FAF7EF5313085203E8 /* Pods-CoreDataVsRealm.debug.xcconfig */,
+				BB7E20BB6AED1FEAB6BEED5D /* Pods-CoreDataVsRealm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E272307355EFD89DB4401BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FC2D226931B0500E11A8F /* Realm.framework */,
+				006F6679973AA3246096A741 /* Pods_CoreDataVsRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC4D60A12692FD57008D9AC1 = {
 			isa = PBXGroup;
 			children = (
 				AC4D60AC2692FD57008D9AC1 /* CoreDataVsRealm */,
 				AC4D60AB2692FD57008D9AC1 /* Products */,
+				174A0110ADACB0F8F9897E6A /* Pods */,
+				5E272307355EFD89DB4401BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,13 +93,13 @@
 		AC4D60AC2692FD57008D9AC1 /* CoreDataVsRealm */ = {
 			isa = PBXGroup;
 			children = (
+				AC4D60F32693052E008D9AC1 /* SimpleEntity+CoreData */,
+				AC4D610526931594008D9AC1 /* RATSimpleRLMObject */,
 				AC4D60AD2692FD57008D9AC1 /* AppDelegate.h */,
 				AC4D60AE2692FD57008D9AC1 /* AppDelegate.m */,
-				AC4D60B02692FD57008D9AC1 /* SceneDelegate.h */,
-				AC4D60B12692FD57008D9AC1 /* SceneDelegate.m */,
-				AC4D60B32692FD57008D9AC1 /* ViewController.h */,
-				AC4D60B42692FD57008D9AC1 /* ViewController.m */,
-				AC4D60B62692FD57008D9AC1 /* Main.storyboard */,
+				AC4D60CD26930108008D9AC1 /* RATViewController.h */,
+				AC4D60CE26930108008D9AC1 /* RATViewController.m */,
+				AC4D60CF26930108008D9AC1 /* RATViewController.xib */,
 				AC4D60BC2692FD59008D9AC1 /* Assets.xcassets */,
 				AC4D60BE2692FD59008D9AC1 /* LaunchScreen.storyboard */,
 				AC4D60C12692FD59008D9AC1 /* Info.plist */,
@@ -79,6 +109,26 @@
 			path = CoreDataVsRealm;
 			sourceTree = "<group>";
 		};
+		AC4D60F32693052E008D9AC1 /* SimpleEntity+CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FC2E82693330600E11A8F /* SimpleEntity+CoreDataProperties.h */,
+				AC1FC2EB2693330600E11A8F /* SimpleEntity+CoreDataProperties.m */,
+				AC1FC2E92693330600E11A8F /* SimpleEntity+CoreDataClass.h */,
+				AC1FC2EA2693330600E11A8F /* SimpleEntity+CoreDataClass.m */,
+			);
+			path = "SimpleEntity+CoreData";
+			sourceTree = "<group>";
+		};
+		AC4D610526931594008D9AC1 /* RATSimpleRLMObject */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D610126931586008D9AC1 /* RATSimpleRLMObject.h */,
+				AC4D610226931586008D9AC1 /* RATSimpleRLMObject.m */,
+			);
+			path = RATSimpleRLMObject;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC4D60C62692FD59008D9AC1 /* Build configuration list for PBXNativeTarget "CoreDataVsRealm" */;
 			buildPhases = (
+				2B11C79335A2F4F993309D5C /* [CP] Check Pods Manifest.lock */,
 				AC4D60A62692FD57008D9AC1 /* Sources */,
 				AC4D60A72692FD57008D9AC1 /* Frameworks */,
 				AC4D60A82692FD57008D9AC1 /* Resources */,
+				29AAB8B862B2E5224E744C2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -105,6 +157,7 @@
 		AC4D60A22692FD57008D9AC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RAT;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					AC4D60A92692FD57008D9AC1 = {
@@ -135,38 +188,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4D60D126930108008D9AC1 /* RATViewController.xib in Resources */,
 				AC4D60C02692FD59008D9AC1 /* LaunchScreen.storyboard in Resources */,
 				AC4D60BD2692FD59008D9AC1 /* Assets.xcassets in Resources */,
-				AC4D60B82692FD57008D9AC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29AAB8B862B2E5224E744C2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreDataVsRealm/Pods-CoreDataVsRealm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreDataVsRealm/Pods-CoreDataVsRealm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoreDataVsRealm/Pods-CoreDataVsRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B11C79335A2F4F993309D5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreDataVsRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC4D60A62692FD57008D9AC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4D60D026930108008D9AC1 /* RATViewController.m in Sources */,
 				AC4D60C32692FD59008D9AC1 /* main.m in Sources */,
-				AC4D60B52692FD57008D9AC1 /* ViewController.m in Sources */,
 				AC4D60BB2692FD57008D9AC1 /* CoreDataVsRealm.xcdatamodeld in Sources */,
+				AC4D610326931586008D9AC1 /* RATSimpleRLMObject.m in Sources */,
 				AC4D60AF2692FD57008D9AC1 /* AppDelegate.m in Sources */,
-				AC4D60B22692FD57008D9AC1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC4D60B62692FD57008D9AC1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC4D60B72692FD57008D9AC1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC4D60BE2692FD59008D9AC1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -229,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,6 +379,7 @@
 		};
 		AC4D60C72692FD59008D9AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE0B7FAF7EF5313085203E8 /* Pods-CoreDataVsRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +398,7 @@
 		};
 		AC4D60C82692FD59008D9AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7E20BB6AED1FEAB6BEED5D /* Pods-CoreDataVsRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
